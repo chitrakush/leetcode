@@ -21,5 +21,5 @@ You're given `n` non-negative integers `height`, where `height[i]` is the height
 
 ## Complexity
 
-- Time:
-- Space:
+- Time: O(n)
+- Space: O(1)
