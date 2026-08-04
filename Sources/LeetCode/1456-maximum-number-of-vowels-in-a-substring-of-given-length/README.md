@@ -4,7 +4,7 @@
 
 **Difficulty:** Medium
 **Tags:** Sliding Window, Array
-**Status:** ⬜ Not started
+**Status:** ✅ Completed
 
 ## Problem
 
@@ -22,5 +22,5 @@ Given a string `s` and an integer `k`, return the maximum number of vowels (`a, 
 
 ## Complexity
 
-- Time:
-- Space:
+- Time: O(n)
+- Space: O(n)
