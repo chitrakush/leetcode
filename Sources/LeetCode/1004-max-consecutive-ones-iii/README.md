@@ -4,7 +4,7 @@
 
 **Difficulty:** Medium
 **Tags:** Sliding Window, Array
-**Status:** ⬜ Not started
+**Status:** ✅ Completed
 
 ## Problem
 
@@ -21,5 +21,5 @@ Given a binary array `nums` and an integer `k`, you may flip at most `k` zeros t
 
 ## Complexity
 
-- Time:
-- Space:
+- Time: O(n)
+- Space: O(1)
