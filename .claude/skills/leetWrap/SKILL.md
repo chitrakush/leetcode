@@ -22,8 +22,9 @@ Close out work on the problem currently in play in this conversation by committi
 
 4. **Commit.** Look at `git log` for this repo's message style (short, imperative, e.g. "Solve Container With Most Water with two pointers"). Write a similarly-styled one-liner describing what was solved, ending with:
    ```
-   Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>
+   Co-Authored-By: {model_name} <noreply@anthropic.com>
    ```
+   Replace `{model_name}` with the name of the model running this session (e.g. `Claude Opus 5.5`), not a hardcoded value.
 
 5. **Push** to the current branch's remote.
 
