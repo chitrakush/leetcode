@@ -4,7 +4,7 @@
 
 **Difficulty:** Easy
 **Tags:** Hash Table
-**Status:** ⬜ Not started
+**Status:** ✅ Completed
 
 ## Problem
 
@@ -21,5 +21,5 @@ Given two integer arrays `nums1` and `nums2`, return a two-element result where 
 
 ## Complexity
 
-- Time:
-- Space:
+- Time: O(m + n)
+- Space: O(m + n)
