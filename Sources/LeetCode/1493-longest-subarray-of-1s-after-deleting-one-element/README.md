@@ -4,7 +4,7 @@
 
 **Difficulty:** Medium
 **Tags:** Sliding Window, Array
-**Status:** ⬜ Not started
+**Status:** ✅ Completed
 
 ## Problem
 
@@ -22,5 +22,5 @@ Given a binary array `nums`, you must delete exactly one element. Return the len
 
 ## Complexity
 
-- Time:
-- Space:
+- Time: O(n)
+- Space: O(1)

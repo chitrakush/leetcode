@@ -4,5 +4,30 @@
 // Difficulty: Medium
 
 struct Solution1493 {
-    // TODO: implement
+    
+    
+    func longestSubarray(_ nums: [Int]) -> Int {
+        var zeroCount = 0
+        var maxSize = 0
+        var left = 0
+        var right = 0
+        
+        while right < nums.count {
+            if nums[right] == 0 {
+                zeroCount += 1
+            }
+            
+            while zeroCount > 1 {
+                if nums[left] == 0 {
+                    zeroCount -= 1
+                }
+                left += 1
+            }
+            
+            maxSize = max(maxSize, right-left + 1)
+            right += 1
+        }
+        
+        return maxSize-1
+    }
 }
