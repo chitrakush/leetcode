@@ -4,7 +4,7 @@
 
 **Difficulty:** Easy
 **Tags:** Prefix Sum, Array
-**Status:** ⬜ Not started
+**Status:** ✅ Completed
 
 ## Problem
 
@@ -21,5 +21,5 @@ A biker rides past `n + 1` points, starting at altitude 0. Given an array `gain`
 
 ## Complexity
 
-- Time:
-- Space:
+- Time: O(n)
+- Space: O(1)

@@ -4,5 +4,15 @@
 // Difficulty: Easy
 
 struct Solution1732 {
-    // TODO: implement
+    
+    func largestAltitude(_ gain: [Int]) -> Int {
+        var maxAltitude = 0
+        var sum = 0
+        
+        for i in 0..<gain.count {
+            sum = sum+gain[i]
+            maxAltitude = max(maxAltitude, sum)
+        }
+        return maxAltitude
+    }
 }
