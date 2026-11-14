@@ -4,7 +4,7 @@
 
 **Difficulty:** Easy
 **Tags:** Prefix Sum, Array
-**Status:** ⬜ Not started
+**Status:** ✅ Completed
 
 ## Problem
 
@@ -22,5 +22,5 @@ Given an integer array `nums`, find the leftmost index whose left-side sum (excl
 
 ## Complexity
 
-- Time:
-- Space:
+- Time: O(n)
+- Space: O(1)
